@@ -11,8 +11,8 @@ import { Open_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: "Chigrik - Tigrik",
-  description: "Tigrik's Team",
+  title: "Chigrik - \"Tigrik\"",
+  description: "Tigrik's Te'am",
 };
 
 const inter = Inter({
