@@ -83,7 +83,7 @@ export default function LandingPage() {
       description="At Gio, we believe flowers are a language of emotion. We source sustainably and arrange with a focus on natural, free-spirited textures."
       subdescription="With over 10 years of botanical expertise, our studio provides bespoke floral storytelling for weddings, events, and everyday beauty."
       icon={Leaf}
-      imageSrc="http://img.b2bpic.net/free-photo/still-life-with-gardening-concept_23-2148127905.jpg"
+      imageSrc="https://pixabay.com/get/gbec36fc0b0cb3ae5ac3f5177dcd7784b11983e323f1d20df2161dd3ae30d71d8b63dc5251728eaa5f9f95c7a64b10c8a1b334efcee6186735d854c92114c85c9_1280.jpg?id=7619791"
       mediaAnimation="slide-up"
     />
   </div>
