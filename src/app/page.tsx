@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
@@ -162,19 +162,13 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
-      useInvertedBackground={false}
-      background={{
-        variant: "plain"}}
+      <ContactSplit
       tag="Get in touch"
       title="Ready to bring flowers into your life?"
       description="Whether for an event or a simple gift, we're here to help. Reach out to our design team today."
-      buttons={[
-        {
-          text: "Email us",          href: "mailto:hello@gioflowers.studio"},
-        {
-          text: "Visit Studio",          href: "#"},
-      ]}
+      background={{ variant: "plain" }}
+      imageSrc="http://img.b2bpic.net/free-photo/female-florist-working-with-flowers-flower-shop_23-2148127906.jpg"
+      mediaPosition="right"
     />
   </div>
 
