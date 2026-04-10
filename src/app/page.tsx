@@ -167,6 +167,7 @@ export default function LandingPage() {
       title="Ready to bring flowers into your life?"
       description="Whether for an event or a simple gift, we're here to help. Reach out to our design team today."
       background={{ variant: "plain" }}
+      useInvertedBackground={false}
       imageSrc="http://img.b2bpic.net/free-photo/female-florist-working-with-flowers-flower-shop_23-2148127906.jpg"
       mediaPosition="right"
     />
